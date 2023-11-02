@@ -1,4 +1,4 @@
-package Entities.Routes;
+package Entities.Routes.ConcretePrototype;
 
 public class Coordinates_Point {
     private String address;
@@ -7,6 +7,6 @@ public class Coordinates_Point {
 
     /* ESTRUCTURA DE OBJETO GEOCODER REQUEST
  { address: string,  //OBLIGATORIO
- location: Entities.Routes.LatLng, //OBLIGATORIO
+ location: Entities.Routes.ConcretePrototype.LatLng, //OBLIGATORIO
  placeId: string,  //OBLIGATORIO}*/
 }

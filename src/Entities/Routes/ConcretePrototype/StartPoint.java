@@ -1,6 +1,4 @@
-package Entities.Routes;
-
-import Entities.Routes.Coordinates_Point;
+package Entities.Routes.ConcretePrototype;
 
 public class StartPoint {
     private  String nameStartPoint;

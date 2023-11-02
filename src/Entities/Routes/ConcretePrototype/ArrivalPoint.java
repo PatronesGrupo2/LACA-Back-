@@ -1,4 +1,4 @@
-package Entities.Routes;
+package Entities.Routes.ConcretePrototype;
 
 public class ArrivalPoint {
         private  String nameArrivalPoint;
