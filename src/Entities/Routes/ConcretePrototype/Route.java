@@ -6,7 +6,7 @@ public class Route implements RoutePrototype{
     private String type;
     private String name;
     private String description;
-    private  StartPoint startPoint; //DOLLARS
+    private  StartPoint startPoint;
     private ArrivalPoint arrivalPoint;
 
     public Route(String type, String name, String description,
@@ -74,5 +74,16 @@ public class Route implements RoutePrototype{
     @Override
     public ArrivalPoint getArrivalPoint() {
         return arrivalPoint;
+    }
+
+    @Override
+    public String toString() {
+        return "Route{" +
+                "type='" + type + '\'' +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", startPoint=" + startPoint +
+                ", arrivalPoint=" + arrivalPoint +
+                '}';
     }
 }
