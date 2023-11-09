@@ -8,5 +8,15 @@ public class MotorcycleUnit implements TransportUnit {
 
     }
 
+    @Override
+    public void assignRoute() {
+
+    }
+
+    @Override
+    public void loadPackage() {
+
+    }
+
 
 }

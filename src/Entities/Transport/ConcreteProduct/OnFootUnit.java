@@ -7,4 +7,14 @@ public class OnFootUnit implements TransportUnit {
     public void deliver() {
 
     }
+
+    @Override
+    public void assignRoute() {
+
+    }
+
+    @Override
+    public void loadPackage() {
+
+    }
 }
