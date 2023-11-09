@@ -13,7 +13,7 @@ public class TransportUnit {
     public TransportUnit() {
     }
 
-    public TransportUnit(double maxMeasureCapacity, String name, String plate, String type, double maxWeigth) {
+    public TransportUnit(double maxMeasureCapacity, String name, String plate,double height, double width, String type, double maxWeigth) {
         this.maxMeasureCapacity = maxMeasureCapacity;
         this.name = name;
         this.plate = plate;
