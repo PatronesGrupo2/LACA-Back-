@@ -40,13 +40,13 @@ public class Main {
         RoutePrototype myroute1 = factory.createRoute("route1");
         RoutePrototype myroute2 = factory.createRoute("route2");
 
-        System.out.println("Route 1: " + myroute1.getName());
-        System.out.println("Route 2: " + myroute2.getName());
+        System.out.println("\n* Routes:\n"+"Route 1: " + myroute1.getName());
+        System.out.println("Route 2: " + myroute2.getName()+"\n");
 
         //Factory-Transport
         TransportCreator motorcycleCreator = new MotorcycleCreator();
         TransportUnit motorcycle = motorcycleCreator.createTransport(20.5, "Ferrari", "454ADR", 4.3, 3.1, 500.25);
-        System.out.println(motorcycle.toString());
+        System.out.println("* Transports:\n"+motorcycle.toString());
 
         TransportCreator onFootCreator = new OnFootCreator();
         TransportUnit onfoot = onFootCreator.createTransport(50.5, "Indio", "None", 1.80, 50, 50);
@@ -59,6 +59,9 @@ public class Main {
         TransportCreator truckCreator = new TruckCreator();
         TransportUnit truck = truckCreator.createTransport(100.2, "Volvo", "ERF988", 10.2, 5.8, 2500.25);
         System.out.println(truck.toString());
-        motorcycle.deliver();
+
+        //Factory-User
+
+        //Builder-Package
     }
 }
