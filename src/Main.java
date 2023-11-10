@@ -1,13 +1,22 @@
 import Entities.Routes.ConcretePrototype.*;
 import Entities.Routes.PrototypeModel.RoutePrototype;
 import Entities.Routes.RouteFactory.RouteFactory;
+//
 import Entities.Transport.AbstractCreator.TransportCreator;
 import Entities.Transport.AbstractProduct.TransportUnit;
 import Entities.Transport.ConcreteCreator.MotorcycleCreator;
 import Entities.Transport.ConcreteCreator.OnFootCreator;
 import Entities.Transport.ConcreteCreator.PickUpTruckCreator;
 import Entities.Transport.ConcreteCreator.TruckCreator;
-
+//
+import Entities.Users.AbstractCreator.UserCreator;
+import Entities.Users.AbstractProduct.User;
+import Entities.Users.ConcreteCreator.SystemAdminCreator;
+import Entities.Users.ConcreteCreator.RouteApproverCreator;
+import Entities.Users.ConcreteCreator.CustomerCreator;
+import Entities.Users.ConcreteCreator.CarrierCreator;
+import Entities.Users.ConcreteCreator.PackageViewerCreator;
+import Entities.Users.ConcreteProduct.Carrier;
 
 public class Main {
     public static void main(String[] args) {
@@ -41,12 +50,12 @@ public class Main {
         RoutePrototype myroute2 = factory.createRoute("route2");
 
         System.out.println("\n* Routes:\n"+"Route 1: " + myroute1.getName());
-        System.out.println("Route 2: " + myroute2.getName()+"\n");
+        System.out.println("Route 2: " + myroute2.getName());
 
         //Factory-Transport
         TransportCreator motorcycleCreator = new MotorcycleCreator();
         TransportUnit motorcycle = motorcycleCreator.createTransport(20.5, "Ferrari", "454ADR", 4.3, 3.1, 500.25);
-        System.out.println("* Transports:\n"+motorcycle.toString());
+        System.out.println("\n* Transports:\n"+motorcycle.toString());
 
         TransportCreator onFootCreator = new OnFootCreator();
         TransportUnit onfoot = onFootCreator.createTransport(50.5, "Indio", "None", 1.80, 50, 50);
@@ -61,6 +70,25 @@ public class Main {
         System.out.println(truck.toString());
 
         //Factory-User
+        UserCreator carrierCreator = new CarrierCreator();
+        User carrier = carrierCreator.createUser(1, "111111111", "Joshua Bolanos");
+        System.out.println("\n* Users:\n"+carrier.toString());
+
+        UserCreator customerCreator = new CustomerCreator();
+        User customer = customerCreator.createUser(2, "111111112", "Juan Diego Sequeira");
+        System.out.println(customer.toString());
+
+        UserCreator packageViewerCreator = new PackageViewerCreator();
+        User packageViewer = packageViewerCreator.createUser(3, "111111113", "Cynthia Sancho");
+        System.out.println(packageViewer.toString());
+
+        UserCreator routeApproverCreator = new RouteApproverCreator();
+        User routeApprover = routeApproverCreator.createUser(4, "111111114", "Jhonny Perez");
+        System.out.println(routeApprover.toString());
+
+        UserCreator systemAdminCreator = new SystemAdminCreator();
+        User systemAdmin = systemAdminCreator.createUser(5, "111111115", "Alejandro Ortiz");
+        System.out.println(systemAdmin.toString());
 
         //Builder-Package
     }

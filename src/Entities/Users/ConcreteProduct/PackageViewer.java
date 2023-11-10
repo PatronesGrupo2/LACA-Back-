@@ -12,4 +12,40 @@ public class PackageViewer implements User {
         this.ID = ID;
         this.fullName = fullName;
     }
+
+    public PackageViewer() {
+    }
+
+    public int getPackegeViewerID() {
+        return packegeViewerID;
+    }
+
+    public void setPackegeViewerID(int packegeViewerID) {
+        this.packegeViewerID = packegeViewerID;
+    }
+
+    public String getID() {
+        return ID;
+    }
+
+    public void setID(String ID) {
+        this.ID = ID;
+    }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    @Override
+    public String toString() {
+        return "PackageViewer{" +
+                "packegeViewerID=" + packegeViewerID +
+                ", ID='" + ID + '\'' +
+                ", fullName='" + fullName + '\'' +
+                '}';
+    }
 }
