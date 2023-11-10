@@ -9,7 +9,7 @@ public class RouteApproverCreator implements UserCreator {
     public RouteApproverCreator() {
     }
 
-    public User createUser() {
-        return new RouteApprover();
+    public User createUser(int ID, String userID, String fullName) {
+        return new RouteApprover(ID, userID, fullName);
     }
 }

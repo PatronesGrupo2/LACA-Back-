@@ -8,7 +8,7 @@ public class CarrierCreator implements UserCreator {
     public CarrierCreator() {
     }
 
-    public User createUser() {
-        return new Carrier();
+    public User createUser(int ID, String userID, String fullName) {
+        return new Carrier(ID, userID, fullName);
     }
 }

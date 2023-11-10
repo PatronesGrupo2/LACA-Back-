@@ -9,8 +9,8 @@ public class SystemAdminCreator implements UserCreator {
     public SystemAdminCreator() {
     }
 
-    public User createUser() {
-        return new SystemAdmin();
+    public User createUser(int ID, String userID, String fullName) {
+        return new SystemAdmin(ID, userID, fullName);
     }
 
 }

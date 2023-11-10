@@ -9,7 +9,7 @@ public class CustomerCreator implements UserCreator {
     public CustomerCreator() {
     }
 
-    public User createUser() {
-        return new Customer();
+    public User createUser(int ID, String userID, String fullName) {
+        return new Customer(ID, userID, fullName);
     }
 }

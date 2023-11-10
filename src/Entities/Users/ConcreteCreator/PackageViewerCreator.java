@@ -9,7 +9,7 @@ public class PackageViewerCreator implements UserCreator {
     public PackageViewerCreator() {
     }
 
-    public User createUser() {
-        return new PackageViewer();
+    public User createUser(int ID, String userID, String fullName) {
+        return new PackageViewer(ID, userID, fullName);
     }
 }
