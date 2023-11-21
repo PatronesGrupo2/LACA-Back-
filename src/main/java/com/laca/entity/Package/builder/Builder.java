@@ -1,9 +1,9 @@
 package com.laca.entity.Package.builder;
 
 
-import entity.Package.components.PackageSize;
-import entity.Package.components.PackageWeight;
-import entity.Package.instanceEnum.PackageType;
+import com.laca.entity.Package.components.PackageSize;
+import com.laca.entity.Package.components.PackageWeight;
+import com.laca.entity.Package.instanceEnum.PackageType;
 
 public interface Builder {
 

@@ -1,7 +1,7 @@
 package com.laca.entity.Routes.PrototypeModel;
 
-import entity.Routes.ConcretePrototype.ArrivalPoint;
-import entity.Routes.ConcretePrototype.StartPoint;
+import com.laca.entity.Routes.ConcretePrototype.ArrivalPoint;
+import com.laca.entity.Routes.ConcretePrototype.StartPoint;
 
 public interface RoutePrototype {
     RoutePrototype clone();

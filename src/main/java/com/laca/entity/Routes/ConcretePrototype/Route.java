@@ -1,6 +1,6 @@
 package com.laca.entity.Routes.ConcretePrototype;
 
-import entity.Routes.PrototypeModel.RoutePrototype;
+import com.laca.entity.Routes.PrototypeModel.RoutePrototype;
 
 public class Route implements RoutePrototype{
     private String type;

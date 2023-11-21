@@ -1,8 +1,8 @@
 package com.laca.entity.Transport.ConcreteCreator;
 
-import entity.Transport.AbstractCreator.TransportCreator;
-import entity.Transport.AbstractProduct.TransportUnit;
-import entity.Transport.ConcreteProduct.TruckUnit;
+import com.laca.entity.Transport.AbstractCreator.TransportCreator;
+import com.laca.entity.Transport.AbstractProduct.TransportUnit;
+import com.laca.entity.Transport.ConcreteProduct.TruckUnit;
 
 public class TruckCreator implements TransportCreator {
 

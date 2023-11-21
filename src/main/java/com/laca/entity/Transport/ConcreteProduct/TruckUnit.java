@@ -1,6 +1,6 @@
 package com.laca.entity.Transport.ConcreteProduct;
 
-import entity.Transport.AbstractProduct.TransportUnit;
+import com.laca.entity.Transport.AbstractProduct.TransportUnit;
 
 public class TruckUnit implements TransportUnit {
     private double maxMeasureCapacity;

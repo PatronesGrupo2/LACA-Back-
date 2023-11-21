@@ -1,8 +1,8 @@
 package com.laca.entity.Package.director;
 
-import entity.Package.builder.Builder;
-import entity.Package.components.PackageSize;
-import entity.Package.instanceEnum.*;
+import com.laca.entity.Package.builder.Builder;
+import com.laca.entity.Package.components.PackageSize;
+import com.laca.entity.Package.instanceEnum.*;
 
 public class Director {
 

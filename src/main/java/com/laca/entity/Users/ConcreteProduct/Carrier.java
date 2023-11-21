@@ -1,6 +1,6 @@
 package com.laca.entity.Users.ConcreteProduct;
 
-import entity.Users.AbstractProduct.User;
+import com.laca.entity.Users.AbstractProduct.User;
 
 public class Carrier implements User {
     private int carrierID;

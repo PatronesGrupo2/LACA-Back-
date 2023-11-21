@@ -1,6 +1,6 @@
 package com.laca.entity.Routes.RouteFactory;
 
-import entity.Routes.PrototypeModel.RoutePrototype;
+import com.laca.entity.Routes.PrototypeModel.RoutePrototype;
 
 import java.util.HashMap;
 import java.util.Map;

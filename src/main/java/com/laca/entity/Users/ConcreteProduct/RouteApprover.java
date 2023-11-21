@@ -1,6 +1,6 @@
 package com.laca.entity.Users.ConcreteProduct;
 
-import entity.Users.AbstractProduct.User;
+import com.laca.entity.Users.AbstractProduct.User;
 
 public class RouteApprover implements User {
     private int routeApproverID;
