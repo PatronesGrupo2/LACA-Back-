@@ -1,5 +1,6 @@
 package com.laca.entity.Package.builder;
 
+import com.laca.entity.Package.classes.Package;
 import com.laca.entity.Package.components.PackageSize;
 import com.laca.entity.Package.components.PackageWeight;
 import com.laca.entity.Package.instanceEnum.PackageType;
@@ -53,13 +54,13 @@ public class PackageBuilder implements Builder{
         this.weightClassification = weightClassification;
     }
 
-    /*public Package getResult() {
-        return new Package(packageType,
-                packageRecipientsName,
-                packageDescription,
-                packagePrice,
-                packageSize,
-                packageWeight,
-                weightClassification);
-    }*/
+    public Package getResult() {
+        return new Package(this.packageType,
+                this.packageRecipientsName,
+                this.packageDescription,
+                this.packagePrice,
+                this.packageSize,
+                this.packageWeight,
+                this.weightClassification);
+    }
 }
