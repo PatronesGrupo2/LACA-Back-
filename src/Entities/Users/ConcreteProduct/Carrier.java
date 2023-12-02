@@ -1,7 +1,9 @@
 package Entities.Users.ConcreteProduct;
 
+import Entities.Transport.AbstractCreator.TransportCreator;
 import Entities.Users.AbstractProduct.User;
-import Entities.Users.ConcreteCreator.CarrierCreator;
+import Entities.Users.Strategy.RegisterTransportUnitStrategy;
+import org.jetbrains.annotations.NotNull;
 
 public class Carrier implements User {
     private int carrierID;
@@ -48,5 +50,9 @@ public class Carrier implements User {
                 ", ID='" + ID + '\'' +
                 ", fullName='" + fullName + '\'' +
                 '}';
+    }
+
+    public void registerTransport(@NotNull RegisterTransportUnitStrategy registerStrategy, @NotNull TransportCreator transportCreator, double maxMeasureCapacity, String name, String plate, double height, double width, double maxWeight){
+        registerStrategy.registerTransport(transportCreator, maxMeasureCapacity, name, plate, height, width, maxWeight);
     }
 }
