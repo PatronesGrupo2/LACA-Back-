@@ -52,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Desktop/ALL/00 - Ingenieria en Desarrollo de Software  - CENFOTEC/6 - Cuatrimestre/BISOFT-12 Programación con Patrones/Semana - 4/builder-example",
+    "last_opened_file_path": "D:/Desktop/ALL/BISOFT-12 Patrones/Final_Entregable/BACK_END_v2/src/main/java/com/laca/bl/entity/Transport",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,6 +62,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\ALL\BISOFT-12 Patrones\Final_Entregable\BACK_END_v2\src\main\java\com\laca\bl\entity\Transport" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.laca.service" />
     </key>
@@ -83,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701897809584</updated>
-      <workItem from="1701897811085" duration="5573000" />
+      <workItem from="1701897811085" duration="6970000" />
     </task>
     <servers />
   </component>
