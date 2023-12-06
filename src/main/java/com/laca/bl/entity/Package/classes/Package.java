@@ -6,7 +6,7 @@ import com.laca.bl.entity.Package.instanceEnum.PackageType;
 
 public class Package {
 
-
+    private int packageID;
     private PackageType packageType;
     private String packageRecipientsName;
     private String packageDescription;
@@ -19,7 +19,8 @@ public class Package {
     public Package() {
     }
 
-    public Package(PackageType packageType, String packageRecipientsName, String packageDescription, double packageCost, PackageSize packageSize, PackageWeight packageWeight, String weightClassification) {
+    public Package(int packageID, PackageType packageType, String packageRecipientsName, String packageDescription, double packageCost, PackageSize packageSize, PackageWeight packageWeight, String weightClassification) {
+        this.packageID = packageID;
         this.packageType = packageType;
         this.packageRecipientsName = packageRecipientsName;
         this.packageDescription = packageDescription;
@@ -29,7 +30,15 @@ public class Package {
         this.weightClassification =weightClassification;
     }
 
-    public PackageType getPackageType() {
+    public int getPackageID() {
+        return packageID;
+    }
+
+    public void setPackageID(int packageID) {
+        this.packageID = packageID;
+    }
+
+    public String getPackageType() {
         return packageType;
     }
 
@@ -56,6 +65,9 @@ public class Package {
     public String getPackageDescription() {
         return packageDescription;
     }
+    public String getWeightClassification() {
+        return weightClassification;
+    }
 
     public void setPackageDescription(String packageDescription) {
         this.packageDescription = packageDescription;
@@ -81,9 +93,10 @@ public class Package {
         this.weightClassification = weightClassification;
     }
 
+
     public String toString() {
-        String table = "Type\tRecipient\tDescription\tPrice\tSize\tWeight\n";
-        table += packageType + "\t" + packageRecipientsName + "\t" + packageDescription + "\t$" + packagePrice + "\t" + packageSize.getSize() + "\t" + weightClassification;
+        String table = "ID\tType\tRecipient\tDescription\tPrice\tSize\tWeight\n";
+        table += packageID + "\t" + packageType + "\t" + packageRecipientsName + "\t" + packageDescription + "\t$" + packagePrice + "\t" + packageSize.getSize() + "\t" + weightClassification;
         return table;
     }
 }
