@@ -84,7 +84,7 @@ public class PackageService {
         try (Connection connection = dataSource.getConnection()) {
             String query = "UPDATE packages SET packageType = ?, packageRecipientsName = ?, packageDescription = ?, packagePrice = ?, packageSize = ?, packageWeight = ?, weightClassification = ? WHERE id = ?";
             try (PreparedStatement statement = connection.prepareStatement(query)) {
-                statement.setString(1, updatedPackage.getPackageType());
+                statement.setObject(1, updatedPackage.getPackageType());
                 statement.setString(2, updatedPackage.getPackageRecipientsName());
                 statement.setString(3, updatedPackage.getPackageDescription());
                 statement.setDouble(4, updatedPackage.getPackagePrice());

@@ -1,6 +1,6 @@
 package com.laca.bl.entity.Transport.Decorator.concreteComponent;
 
-import Transport.Decorator.abstractComponent.TransportDecorator;
+import com.laca.bl.entity.Transport.Decorator.abstractComponent.TransportDecorator;
 
 public class FilePackageSource implements TransportDecorator {
 

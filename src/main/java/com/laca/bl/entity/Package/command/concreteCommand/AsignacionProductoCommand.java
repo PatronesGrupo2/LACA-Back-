@@ -4,8 +4,6 @@ import com.laca.bl.entity.Package.classes.Package;
 import com.laca.bl.entity.Routes.ConcretePrototype.Route;
 import com.laca.bl.entity.Package.command.abstractCommand.Command;
 
-
-
 public class AsignacionProductoCommand implements Command {
     private Route route;
     private Package aPackage;

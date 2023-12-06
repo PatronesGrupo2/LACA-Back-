@@ -8,7 +8,7 @@ import com.laca.bl.entity.Package.classes.Package;
 public class PackageBuilder implements Builder {
 
     //Type, Name, Description, Cost, Size, Weight
-
+    private int packageID;
     private PackageType packageType;
     private String packageRecipientsName;
     private String packageDescription;
@@ -18,7 +18,10 @@ public class PackageBuilder implements Builder {
 
     private String weightClassification;
 
-
+    @Override
+    public void setPackageID(int packageID) {
+        this.packageID = packageID;
+    }
     @Override
     public void setPackageType(PackageType packageType) {
         this.packageType = packageType;
@@ -55,6 +58,6 @@ public class PackageBuilder implements Builder {
     }
 
     public Package getResult() {
-        return new Package(packageType, packageRecipientsName, packageDescription, packagePrice, packageSize, packageWeight, weightClassification);
+        return new Package(packageID, packageType, packageRecipientsName, packageDescription, packagePrice, packageSize, packageWeight, weightClassification);
     }
 }

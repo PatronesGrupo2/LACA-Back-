@@ -8,7 +8,7 @@ import com.laca.bl.entity.Package.instanceEnum.PackageType;
 public interface Builder {
 
     //Type, Weight, Name, Description, Cost, Size
-
+    void setPackageID(int packageID);
     void setPackageType(PackageType packageType);
 
     void setPackageRecipientsName(String packageRecipientsName);

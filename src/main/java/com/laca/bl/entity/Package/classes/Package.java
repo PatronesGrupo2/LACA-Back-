@@ -38,7 +38,7 @@ public class Package {
         this.packageID = packageID;
     }
 
-    public String getPackageType() {
+    public PackageType getPackageType() {
         return packageType;
     }
 

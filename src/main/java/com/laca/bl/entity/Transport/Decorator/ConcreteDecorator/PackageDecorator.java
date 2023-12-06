@@ -1,7 +1,7 @@
 package com.laca.bl.entity.Transport.Decorator.ConcreteDecorator;
 
-import Transport.Creator.AbstractProduct.TransportUnit;
-import Transport.Decorator.abstractDecorator.AbstractDecorator;
+import com.laca.bl.entity.Transport.AbstractProduct.TransportUnit;
+import com.laca.bl.entity.Transport.Decorator.abstractDecorator.AbstractDecorator;
 
 public class PackageDecorator extends AbstractDecorator {
   private Package packagedItem;

@@ -1,7 +1,7 @@
 package com.laca.bl.entity.Transport.Decorator.abstractDecorator;
 
-import Transport.Creator.AbstractProduct.TransportUnit;
-import Transport.Decorator.abstractComponent.TransportDecorator;
+import com.laca.bl.entity.Transport.AbstractProduct.TransportUnit;
+import com.laca.bl.entity.Transport.Decorator.abstractComponent.TransportDecorator;
 
 public abstract class AbstractDecorator implements TransportDecorator {
     private TransportUnit wrappee;

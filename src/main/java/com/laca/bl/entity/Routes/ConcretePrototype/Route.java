@@ -1,5 +1,6 @@
 package com.laca.bl.entity.Routes.ConcretePrototype;
 
+import com.laca.bl.entity.Package.classes.Package;
 import com.laca.bl.entity.Routes.PrototypeModel.RoutePrototype;
 
 public class Route implements RoutePrototype{
@@ -9,7 +10,7 @@ public class Route implements RoutePrototype{
     private String description;
     private  StartPoint startPoint;
     private ArrivalPoint arrivalPoint;
-    private java.lang.Package aPackage;
+    private Package aPackage;
 
     public Route(int id, String type, String name, String description,
                  StartPoint startPoint, ArrivalPoint arrivalPoint) {
@@ -91,11 +92,11 @@ public class Route implements RoutePrototype{
         return arrivalPoint;
     }
 
-    public java.lang.Package getaPackage() {
+    public Package getaPackage() {
         return aPackage;
     }
 
-    public void setaPackage(java.lang.Package aPackage) {
+    public void setaPackage(Package aPackage) {
         this.aPackage = aPackage;
     }
 
