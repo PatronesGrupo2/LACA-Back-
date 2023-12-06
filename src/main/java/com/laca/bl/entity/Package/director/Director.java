@@ -3,7 +3,7 @@ package com.laca.bl.entity.Package.director;
 import com.laca.bl.entity.Package.builder.Builder;
 import com.laca.bl.entity.Package.components.PackageSize;
 import com.laca.bl.entity.Package.instanceEnum.PackageType;
-import com.laca.entity.Package.instanceEnum.*;
+import com.laca.bl.entity.Package.instanceEnum.*;
 
 public class Director {
 
