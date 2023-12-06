@@ -1,7 +1,6 @@
 package com.laca.service;
-import com.laca.entity.Product;
+import com.laca.bl.entity.Product;
 import jakarta.transaction.Transactional;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.sql.DataSource;
@@ -10,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class ProductService {
+public class ProductService{
 
     private final DataSource dataSource;
 
@@ -118,7 +117,6 @@ public class ProductService {
         }
     }
 
-
     @Transactional
     public Boolean deleteProduct(int productId) {
         try (Connection connection = dataSource.getConnection()) {
@@ -137,5 +135,4 @@ public class ProductService {
             throw new RuntimeException("Error deleting product: " + e.getMessage(), e);
         }
     }
-
 }

@@ -1,8 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/urobo/OneDrive - ucenfotec.ac.cr/Desktop/Stuff/bisoft_/Cuatrimestre actual/Programacion con Patrones/Repo&quot;
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3435eea6-db2a-4ca6-921a-2608f3bc392d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/controller/TransporterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/controller/TransporterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Package/builder/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Package/builder/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Package/builder/PackageBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Package/builder/PackageBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Package/classes/Package.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Package/classes/Package.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Package/components/PackageSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Package/components/PackageSize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Package/components/PackageWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Package/components/PackageWeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Package/director/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Package/director/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Package/instanceEnum/PackageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Package/instanceEnum/PackageType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Routes/ConcretePrototype/ArrivalPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Routes/ConcretePrototype/ArrivalPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Routes/ConcretePrototype/Coordinates_Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Routes/ConcretePrototype/Coordinates_Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Routes/ConcretePrototype/LatLng.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Routes/ConcretePrototype/LatLng.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Routes/ConcretePrototype/Route.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Routes/ConcretePrototype/Route.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Routes/ConcretePrototype/StartPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Routes/ConcretePrototype/StartPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Routes/PrototypeModel/RoutePrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Routes/PrototypeModel/RoutePrototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Routes/RouteFactory/RouteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Routes/RouteFactory/RouteFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Transport/AbstractCreator/TransportCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Transport/AbstractCreator/TransportCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Transport/AbstractProduct/TransportUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Transport/AbstractProduct/TransportUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Transport/ConcreteCreator/MotorcycleCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Transport/ConcreteCreator/MotorcycleCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Transport/ConcreteCreator/OnFootCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Transport/ConcreteCreator/OnFootCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Transport/ConcreteCreator/PickUpTruckCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Transport/ConcreteCreator/PickUpTruckCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Transport/ConcreteCreator/TruckCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Transport/ConcreteCreator/TruckCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Transport/ConcreteProduct/MotorcycleUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Transport/ConcreteProduct/MotorcycleUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Transport/ConcreteProduct/OnFootUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Transport/ConcreteProduct/OnFootUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Transport/ConcreteProduct/PickUpTruckUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Transport/ConcreteProduct/PickUpTruckUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Transport/ConcreteProduct/TruckUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Transport/ConcreteProduct/TruckUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Transporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Transporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Users/AbstractCreator/UserCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Users/AbstractCreator/UserCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Users/AbstractProduct/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Users/AbstractProduct/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Users/ConcreteCreator/CustomerCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Users/ConcreteCreator/CustomerCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Users/ConcreteCreator/PackageViewerCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Users/ConcreteCreator/PackageViewerCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Users/ConcreteCreator/RouteApproverCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Users/ConcreteCreator/RouteApproverCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Users/ConcreteCreator/SystemAdminCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Users/ConcreteCreator/SystemAdminCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Users/ConcreteCreator/TransportistCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Users/ConcreteCreator/TransportistCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Users/ConcreteProduct/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Users/ConcreteProduct/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Users/ConcreteProduct/PackageViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Users/ConcreteProduct/PackageViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Users/ConcreteProduct/RouteApprover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Users/ConcreteProduct/RouteApprover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Users/ConcreteProduct/SystemAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Users/ConcreteProduct/SystemAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Users/ConcreteProduct/Transportist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Users/ConcreteProduct/Transportist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Users/Strategy/ConcreteStrategy/RegisterMotocycleUnitStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Users/Strategy/ConcreteStrategy/RegisterMotocycleUnitStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Users/Strategy/ConcreteStrategy/RegisterOnFootUnitStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Users/Strategy/ConcreteStrategy/RegisterOnFootUnitStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Users/Strategy/ConcreteStrategy/RegisterPickUpUnitStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Users/Strategy/ConcreteStrategy/RegisterPickUpUnitStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Users/Strategy/ConcreteStrategy/RegisterTruckUnitStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Users/Strategy/ConcreteStrategy/RegisterTruckUnitStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/entity/Users/Strategy/RegisterTransportUnitStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/bl/entity/Users/Strategy/RegisterTransportUnitStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laca/service/TransporterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laca/service/TransporterService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ZBaDofMBBmRzOjdm0ZfCcB98Xh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Desktop/ALL/BISOFT-12 Patrones/Proyecto Delivery - Github_V2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.laca.service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LatinAmericanCarriersAssociationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="project.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.laca.LatinAmericanCarriersAssociationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3435eea6-db2a-4ca6-921a-2608f3bc392d" name="Changes" comment="" />
+      <created>1701897809584</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701897809584</updated>
+      <workItem from="1701897811085" duration="1424000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>
