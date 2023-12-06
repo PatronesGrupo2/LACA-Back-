@@ -108,4 +108,6 @@ public class MotorcycleUnit implements TransportUnit {
     }
 
 
+    public void setId(long aLong) {
+    }
 }
